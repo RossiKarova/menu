@@ -1,0 +1,402 @@
+nav{
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav:before {
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: black;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 50px;
+}
+ul li{
+    float: right;
+}
+ul li a{
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: "Bookman Old Style";
+}
+ul li a:hover{
+    background: #d34d43;
+}
+h1, h2, h3 {
+    text-transform:uppercase;
+}
+h1, h2, h4 {
+    font-weight:bold;
+  }
+h1, h3 {
+    margin-bottom:20px;
+}
+h3 {
+    font-size:18px;
+}
+h4 {
+    margin-bottom:5px;
+    line-height:15px;
+}
+h1{
+    font-size: 24px;
+    color: #d34d43;
+    font-family: "Bookman Old Style";
+}
+h2{
+    color:  whitesmoke ;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: "Bookman Old Style";
+    font-size:16px;
+    line-height:24px;
+}
+h3 {
+
+    font-family: "Bookman Old Style";
+    font-size: 16px;
+    color: #d34d43;
+}
+p{
+    font-size: 14px;
+    color: black;
+    font-family: "Book Antiqua";
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.logo {
+    float: left;
+    padding-left: 0px;
+    margin-right: 0;
+}
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    border: 1px solid black;
+   }
+.footer{
+      position:fixed;
+      left:0px;
+      bottom:0px;
+      height:50px;
+      width:100%;
+}
+.sidebar1{
+    width: 300px;
+    height: 800px;
+    margin-right:200px;
+    margin-top: -937px;
+    float: right;
+}
+.content{
+    width: 880px;
+    height: 800px;
+    margin-left:510px;
+    margin-top: 10px;
+}
+
+.sidebar2{
+     width: 300px;
+     height: 800px;
+     margin-left: 200px;
+     float: left;
+     margin-top: -937px;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Контакты начало*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Контакты */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/* Контакты закончены */
+}
+/*start reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+
+q:before,q:after {
+    content:'';
+}
+abbr,acronym {
+    border:0;
+}
+/****************end reset************/
+html, body {
+    height:100%;
+}
+body {
+    font:normal 12px/18px Arial, san-serif;
+    color:#616161;
+    background:#fff;
+}
+
+p {
+    margin-bottom:20px;
+}
+
+.wrapper {
+    min-height:100%;
+    position:relative;
+}
+/****************header************/
+.header_wrap {
+    text-align:center;
+    background:url(../images/fon_body.jpg) repeat;
+}
+.home_header {
+    padding-bottom:183px;
+}
+.header_wrap a.logo, .top_nav li a {
+    display:block;
+    color:#616161;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+.header_wrap a.logo {
+    margin:0 auto;
+    padding-top:25px;
+    width:321px;
+    font-size:14px;
+}
+.header_wrap a.logo img {
+    margin-bottom:12px;
+    display:block;
+}
+
+/****************content************/
+.content_wrap {
+    padding-bottom:120px;
+    position:relative;
+}
+.slider_wrap {
+    margin-top:-183px;
+}
+.slider_pic {
+    margin:0 auto;
+    padding:20px;
+    width:920px;
+    position:relative;
+    border:1px solid #dedede;
+    background:#fff;
+    -moz-box-shadow:0 0 8px 0 #dedede;
+    -webkit-box-shadow:0 0 8px 0 #dedede;
+    box-shadow:0 0 8px 0 #dedede;
+    behavior: url(PIE.htc);
+}
+.slider_pic img {
+    width:100%;
+    display:block;
+}
+
+.center_wrap {
+    margin:20px auto 0;
+    width:966px;
+    overflow:hidden;
+}
+.right_colum, .left_colum {
+    padding:0 8px;
+    width:205px;
+}
+.right_colum {
+    margin-left:25px;
+    float:right;
+}
+.left_colum {
+    margin-right:25px;
+    float:left;
+}
+.center_colum {
+    width:474px;
+    float:left;
+}
+
+.modules {
+    margin-bottom:20px;
+}
+
+.banners img {
+    margin-bottom:15px;
+    padding-top:15px;
+    border-top:1px solid #dedede;
+}
+.banners img:first-child {
+    padding-top:0;
+    border-top:0;
+}
+
+p.sity, p.velcom {
+    margin-bottom:10px;
+    padding-left:25px;
+    line-height:22px;
+    font-size:14px;
+    font-weight:bold;
+}
+p.sity {
+    background:url(../images/sity.png) no-repeat left;
+}
+p.velcom {
+    margin:0;
+    padding-bottom:15px;
+    background:url(../images/velcom.png) no-repeat left -1px;
+    border-bottom:1px solid #dedede;
+}
+
+.center_colum p.velcom {
+    border:0;
+}
+.map {
+    margin:25px 0;
+}
+.map h3 {
+    font-weight:bold;
+    color:#000;
+}
+
+.news_line {
+    padding-bottom:40px;
+    width:100%;
+    overflow:hidden;
+}
+.news_line span {
+    font-size:10px;
+    font-style:italic;
+    color:#999;
+}
+.news_line span.author {
+    float:right;
+}
+.news_line p {
+    margin-bottom:5px;
+}
+.news_line p img {
+    margin:3px 10px 0 0;
+    width:114px;
+    float:left;
+}
+.news_line a.more {
+    width:100%;
+    display:block;
+    text-align:right;
+    color:#616161;
+    font-size:11px;
+    font-style:italic;
+    text-decoration:none;
+}
+.news_line a.more:hover {
+    color:#cc0000;
+}
+/****************end content************/
+
+CSS
+.box-image {
+    width: 200px;
+    height: 200px;
+    background-image: url("http://webupblog.ru/image1.jpg");
+    background-size: 200px 200px;
+    background-position: top left;
+    position: relative;
+}
+
+.box-image {
+    width: 200px;
+    height: 200px;
+    background-image: url("http://webupblog.ru/image1.jpg");
+    background-size: 200px 200px;
+    background-position: top left;
+    position: relative;
+}
+
